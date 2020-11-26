@@ -7,7 +7,7 @@ const color = document.querySelector(".color");
 btn.addEventListener("click", function () {
     let hexColor = '#';
     for(let i = 0; i < 6; i++) {
-     hexColor += hex[getRandomNumber(11)];   
+     hexColor += hex[getRandomNumber()];   
     }
 
     color.textContent = hexColor;
